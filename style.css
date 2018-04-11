@@ -1,0 +1,246 @@
+body {
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #031f2a;
+}
+
+
+.navbar-custom {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+
+.nav-link {
+	color: #031f2a !important;
+}
+
+.nav-link:hover {
+	color: #fff !important;
+}
+
+.nav-item:hover {
+	background-color: #1283af;
+	color: #fff;
+}
+
+.navbar-brand>img {
+	height: 20px;
+	width: auto;
+}
+
+
+.landing {
+	background-image: url(img/3.jpg);
+	background-size: cover;
+}
+
+.landing-sub{
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-left: 25%;
+	padding-right: 27%;
+}
+
+.landing-anim {
+	font-size: 15px;
+    background-color: rgba(3, 31, 42, 0.5);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center; 
+    display:inline-block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+	.landing-anim {
+		font-size: 10px;
+	}
+
+	.service-img {
+		max-width: 60%;
+		padding-top: 5%;
+		padding-left: 30%;
+	}
+
+	.afro-nav-right {
+		margin-left: 0% !important;
+	}
+
+
+}
+
+.afro-border {
+	border: 1px solid rgba(3, 31, 42, 0.6);
+	margin:5px -10px;
+}
+
+.afro-nav-right {
+	margin-left: 50%;
+}
+
+
+.landing-logo {
+	/*display: cover;*/
+	width: 100%;
+	border: 2px solid rgba(3, 31, 42, 0.6);
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.sections-headings {
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid #1283af;
+	font-family: "Segoe UI", Arial,sans-serif;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+.afro-display-container {
+	position: relative;
+}
+
+.afro-display-container>img {
+	width: 100%;
+}
+
+.afro-display-topleft {
+	color: #fff;
+	background-color: #031f2a;
+	padding: 8px 16px;
+	/*position: absolute;*/
+	left: 0;
+	top: 0;
+}
+
+.afro-display-center {
+	color: #fff;
+	background-color: #031f2a;
+	padding: 8px 16px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.afro-btn {
+	color: #ffffff;
+	background-color: #031f2a;
+	padding: 8px 16px;
+	position: absolute;
+	margin-left: 35%;
+}
+
+.btn-padding {
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+
+
+.afro-input {
+	padding: 8px;
+	display: block;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #1283af;
+	width: 100%;
+}
+
+.afro-btn {
+	color: #fff !important;
+	background-color: #1283af !important; 
+	user-select: none;
+}
+
+.afro-map {
+	height: 450px;
+	width: 100%;
+	border: 0;
+	position: relative;
+	overflow: hidden;
+	filter: grayscale(75%);
+}
+
+.location-afro {
+	background-color: #031f2a;
+	color: #fff;
+
+}
+footer {
+	padding-top: 10px;
+	text-align: center; 
+	background-color:#031f2a; 
+	color: #fff;
+	border-top: 1px solid #fff;
+}
+
+/*div.afro-btn {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}*/
+
+/*.fa-star-o {
+	color: white;
+}*/
+
+.service-img {
+	width: 100%;
+	padding-top: 40px;
+}
+.checked {
+	color: orange;
+}
+
+.unchecked {
+	color: #fff;
+}
+
+.w-100 {
+	max-height: 300px;
+	width: auto;
+	/*opacity: 0.5;
+	filter: alpha(opacity=50);*/ /* For IE8 and earlier */
+}
+
+.afro-review-text {
+	color: #fff;
+	left: 50%;
+	top: 50%;
+}
+
+.afro-scroll-icon {
+    padding:10px; 
+    text-align:center; 
+    color: #1283af;
+    text-decoration: none;
+    position:fixed;
+    top:90%;
+    right:2%;
+    display:none;
+}
+.afro-scroll-icon:hover{
+    text-decoration:none;
+}
+
+.afro-address {
+	list-style-type: none;
+}
+
+.afro-address > i {
+	font-size: 40px;
+}
+
+.afro-address > li > i {
+	font-size: 30px;
+}
+
+#footnote {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #fff;
+	background-color: #031f2a;
+}
